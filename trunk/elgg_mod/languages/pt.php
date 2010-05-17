@@ -36,19 +36,19 @@ $english = array(
  */
 	'exception:title' => "Bem-vindo à rede social",
 
-	'InstallationException:CantCreateSite' => "Unable to create a default ElggSite with credentials Name:%s, Url: %s",
+	'InstallationException:CantCreateSite' => "Não foi possível criar o site Default com as credenciais Nome:%s, Url: %s",
 
-	'actionundefined' => "The requested action (%s) was not defined in the system.",
-	'actionloggedout' => "Sorry, you cannot perform this action while logged out.",
+	'actionundefined' => "A ação pretendida (%s) não está definida neste sistema.",
+	'actionloggedout' => "Não pode efectuar esta operação sem uma sessão válida.",
 
-	'SecurityException:Codeblock' => "Denied access to execute privileged code block",
-	'DatabaseException:WrongCredentials' => "Elgg couldn't connect to the database using the given credentials.",
-	'DatabaseException:NoConnect' => "Elgg couldn't select the database '%s', please check that the database is created and you have access to it.",
-	'SecurityException:FunctionDenied' => "Access to privileged function '%s' is denied.",
-	'DatabaseException:DBSetupIssues' => "There were a number of issues: ",
-	'DatabaseException:ScriptNotFound' => "Elgg couldn't find the requested database script at %s.",
+	'SecurityException:Codeblock' => "Acesso negado para executar o bloco de código priveligiado.",
+	'DatabaseException:WrongCredentials' => "Não foi possível estabelecer a ligação à base de dados usando as credenciais fornecidas.",
+	'DatabaseException:NoConnect' => "Não foi possível seleccionar a base de dados '%s', verifique se a base de dados está criada e tem acesso à mesma.",
+	'SecurityException:FunctionDenied' => "O acesso à função priveligiada '%s' foi negado.",
+	'DatabaseException:DBSetupIssues' => "Ocurreram alguns problemas: ",
+	'DatabaseException:ScriptNotFound' => "Não foi possível encontrar o script de base de dados em %s.",
 
-	'IOException:FailedToLoadGUID' => "Failed to load new %s from GUID:%d",
+	'IOException:FailedToLoadGUID' => "Falha ao carregar o novo %s a partir do GUID: %d",
 	'InvalidParameterException:NonElggObject' => "Passing a non-ElggObject to an ElggObject constructor!",
 	'InvalidParameterException:UnrecognisedValue' => "Unrecognised value passed to constuctor.",
 
