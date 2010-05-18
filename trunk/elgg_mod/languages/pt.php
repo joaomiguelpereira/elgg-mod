@@ -310,14 +310,14 @@ Para remover um widget arraste-o de volta para a <b>Biblioteca de Widgets</b>.",
 /**
  * Feeds
  */
-	'feed:rss' => 'Subscribe to feed',
+	'feed:rss' => 'Subscrver a feed',
 	'feed:odd' => 'Syndicate OpenDD',
 
 /**
  * links
  **/
 
-	'link:view' => 'view link',
+	'link:view' => 'ver link',
 
 
 /**
