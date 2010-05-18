@@ -194,116 +194,116 @@ $english = array(
  * User details
  */
 
-	'name' => "Display name",
-	'email' => "Email address",
-	'username' => "Username",
-	'password' => "Password",
-	'passwordagain' => "Password (again for verification)",
-	'admin_option' => "Make this user an admin?",
+	'name' => "Nome",
+	'email' => "Correio electrónico",
+	'username' => "Nome de utilizador",
+	'password' => "Palavra chave",
+	'passwordagain' => "Palavra chave (outra vez para verificação)",
+	'admin_option' => "Tornar este utilizador um administrador?",
 
 /**
  * Access
  */
 
-	'PRIVATE' => "Private",
-	'LOGGED_IN' => "Logged in users",
-	'PUBLIC' => "Public",
-	'access:friends:label' => "Friends",
-	'access' => "Access",
+	'PRIVATE' => "Privado",
+	'LOGGED_IN' => "Utilizadores autenticados",
+	'PUBLIC' => "Publico",
+	'access:friends:label' => "Contactos",
+	'access' => "Acesso",
 
 /**
  * Dashboard and widgets
  */
 
-	'dashboard' => "Dashboard",
-	'dashboard:configure' => "Edit page",
-	'dashboard:nowidgets' => "Your dashboard is your gateway into the site. Click 'Edit page' to add widgets to keep track of content and your life within the system.",
+	'dashboard' => "Painel de controlo",
+	'dashboard:configure' => "Editar página",
+	'dashboard:nowidgets' => "O painel de contorlo é o portal que permite aceder a todas as funções da aplicação. Seleccione 'Editar página' para adicionar widgets que vão permitir manter uma visão global sobre o conteúdo gerado na organização.",
 
-	'widgets:add' => 'Add widgets to your page',
-	'widgets:add:description' => "Choose the features you want to add to your page by dragging them from the <b>Widget gallery</b> on the right, to any of the three widget areas below, and position them where you would like them to appear.
+	'widgets:add' => 'Adicionar widgets à sua página',
+	'widgets:add:description' => "Escolha as funcionalidade que deseja adicionar à página arrastando os widgets da <b>Biblioteca de Widgets </b> à direira, para qualquer uma das três àreas em baixo, e posocione-os conforme as suas preferências
 
-To remove a widget drag it back to the <b>Widget gallery</b>.",
-	'widgets:position:fixed' => '(Fixed position on page)',
+Para remover um widget arraste-o de volta para a <b>Biblioteca de Widgets</b>.",
+	'widgets:position:fixed' => '(Posição fixa na página)',
 
 	'widgets' => "Widgets",
 	'widget' => "Widget",
 	'item:object:widget' => "Widgets",
-	'layout:customise' => "Customise layout",
-	'widgets:gallery' => "Widget gallery",
-	'widgets:leftcolumn' => "Left widgets",
-	'widgets:fixed' => "Fixed position",
-	'widgets:middlecolumn' => "Middle widgets",
-	'widgets:rightcolumn' => "Right widgets",
-	'widgets:profilebox' => "Profile box",
-	'widgets:panel:save:success' => "Your widgets were successfully saved.",
-	'widgets:panel:save:failure' => "There was a problem saving your widgets. Please try again.",
-	'widgets:save:success' => "The widget was successfully saved.",
-	'widgets:save:failure' => "We could not save your widget. Please try again.",
-	'widgets:handlernotfound' => 'This widget is either broken or has been disabled by the site administrator.',
+	'layout:customise' => "Personalizar a estrutura",
+	'widgets:gallery' => "Biblioteca de Widgets",
+	'widgets:leftcolumn' => "widgets à esquerda",
+	'widgets:fixed' => "Posição fixa",
+	'widgets:middlecolumn' => "Widgets ao centro",
+	'widgets:rightcolumn' => "widgets à direita",
+	'widgets:profilebox' => "Perfil",
+	'widgets:panel:save:success' => "Os widgets foram guardados com sucesso.",
+	'widgets:panel:save:failure' => "Ocurreu um problema ao guardar os widgets. Por favor tente novamente.",
+	'widgets:save:success' => "O widget foi guardado com sucesso.",
+	'widgets:save:failure' => "Não foi possível guardar o widget. Por favor tente novamente.",
+	'widgets:handlernotfound' => 'Este widget está danificado ou foi desabilitado pelo administrador.',
 
 /**
  * Groups
  */
 
-	'group' => "Group",
-	'item:group' => "Groups",
+	'group' => "Groupo",
+	'item:group' => "Groupos",
 
 /**
  * Users
  */
 
-	'user' => "User",
-	'item:user' => "Users",
+	'user' => "Utilizador",
+	'item:user' => "Utilizadores",
 
 /**
  * Friends
  */
 
-	'friends' => "Friends",
-	'friends:yours' => "Your friends",
-	'friends:owned' => "%s's friends",
-	'friend:add' => "Add friend",
-	'friend:remove' => "Remove friend",
+	'friends' => "Contactos",
+	'friends:yours' => "Os seus contactos",
+	'friends:owned' => "Contactos de %s'",
+	'friend:add' => "Adicionar contacto",
+	'friend:remove' => "Remover contacto",
 
-	'friends:add:successful' => "You have successfully added %s as a friend.",
-	'friends:add:failure' => "We couldn't add %s as a friend. Please try again.",
+	'friends:add:successful' => "%s foi adicionado à sua rede de contactos com sucesso.",
+	'friends:add:failure' => "Não foi possível adicionar %s à rede de contactos. Por favor tente novamente.",
 
-	'friends:remove:successful' => "You have successfully removed %s from your friends.",
-	'friends:remove:failure' => "We couldn't remove %s from your friends. Please try again.",
+	'friends:remove:successful' => "O contacto %s foi removido da sua rede com sucesso.",
+	'friends:remove:failure' => "Não foi possível remover o contacto %s da sua rede. Por favor tente novamente.",
 
-	'friends:none' => "This user hasn't added anyone as a friend yet.",
-	'friends:none:you' => "You haven't added anyone as a friend! Search for your interests to begin finding people to follow.",
+	'friends:none' => "Este utilizador não tem contactos na sua rede.",
+	'friends:none:you' => "Ainda não adicionou ninguém à sua rede! Procure pessoas para adicionar à sua rede.",
 
-	'friends:none:found' => "No friends were found.",
+	'friends:none:found' => "Ninguém foi encontrado.",
 
-	'friends:of:none' => "Nobody has added this user as a friend yet.",
-	'friends:of:none:you' => "Nobody has added you as a friend yet. Start adding content and fill in your profile to let people find you!",
+	'friends:of:none' => "Ninguém adicionou este utilizador à sua rede de contactos.",
+	'friends:of:none:you' => "Ninguém o adicionou a nenhuma rede. Complete o seu perfil e adicione conteúdo para que as outras pessoas o possam encontrar!",
 
-	'friends:of:owned' => "People who have made %s a friend",
+	'friends:of:owned' => "Pessoas que o têem %s como contacto",
 
-	'friends:num_display' => "Number of friends to display",
-	'friends:icon_size' => "Icon size",
-	'friends:tiny' => "tiny",
-	'friends:small' => "small",
-	'friends:of' => "Friends of",
-	'friends:collections' => "Collections of friends",
-	'friends:collections:add' => "New friends collection",
-	'friends:addfriends' => "Add friends",
-	'friends:collectionname' => "Collection name",
-	'friends:collectionfriends' => "Friends in collection",
-	'friends:collectionedit' => "Edit this collection",
-	'friends:nocollections' => "You do not yet have any collections.",
-	'friends:collectiondeleted' => "Your collection has been deleted.",
-	'friends:collectiondeletefailed' => "We were unable to delete the collection. Either you don't have permission, or some other problem has occurred.",
-	'friends:collectionadded' => "Your collection was successfuly created",
-	'friends:nocollectionname' => "You need to give your collection a name before it can be created.",
-	'friends:collections:members' => "Collection members",
-	'friends:collections:edit' => "Edit collection",
+	'friends:num_display' => "Número de contactos a mostrar",
+	'friends:icon_size' => "Tamanho do Icon",
+	'friends:tiny' => "miniatura",
+	'friends:small' => "pequeno",
+	'friends:of' => "Contactos de",
+	'friends:collections' => "Grupo de contactos",
+	'friends:collections:add' => "Novo grupo de contactos",
+	'friends:addfriends' => "Adicionar contactos",
+	'friends:collectionname' => "Nome do grupo de contactos",
+	'friends:collectionfriends' => "Contactos no grupo de contactos",
+	'friends:collectionedit' => "Editar este grupo de contactos",
+	'friends:nocollections' => "Ainda não tem qualquer grupo de contactos.",
+	'friends:collectiondeleted' => "O grupo de contactos foi removido.",
+	'friends:collectiondeletefailed' => "Não foi possível remover o grupo de contactos. Não tem permissões, ou ocurreu outro problema.",
+	'friends:collectionadded' => "O grupo de contactos foi criado com sucesso.",
+	'friends:nocollectionname' => "Precisa de dar um nome ao frupo de contactos antes de ser criado.",
+	'friends:collections:members' => "Membros no Grupo de contactos",
+	'friends:collections:edit' => "Editar grupo de contactos",
 
-	'friends:river:created' => "%s added the friends widget.",
-	'friends:river:updated' => "%s updated their friends widget.",
-	'friends:river:delete' => "%s removed their friends widget.",
-	'friends:river:add' => "%s is now a friend with",
+	'friends:river:created' => "%s adicionou o widget Contactos",
+	'friends:river:updated' => "%s actualizou o widget Contactos.",
+	'friends:river:delete' => "%s removeu o widget Contactos.",
+	'friends:river:add' => "%s está agora na rede de",
 
 	'friendspicker:chararray' => 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
